@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "target": "ES2016",
+        "sourceMap": true,
+        "baseUrl": ".",
+        "types": [
+            "dom",
+            "es6",
+            "webpack-env"
+        ],
+        "noLib": false
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
