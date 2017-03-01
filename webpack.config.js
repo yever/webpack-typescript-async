@@ -23,6 +23,7 @@ module.exports = {
             poll: 1000
         }
     },
+    devtool: "source-map",
     plugins: [
         new HtmlWebpackPlugin({
             filename: './index.html'

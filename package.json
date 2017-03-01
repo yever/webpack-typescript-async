@@ -1,15 +1,14 @@
 {
   "name": "webpack-async",
   "version": "1.0.0",
-  "description": "",
+  "description": "Asynchronous module loading with webpack and typescript",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --progress --display-error-details",
-    "start": "webpack-dev-server --inline --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --p --progress --display-error-details",
+    "start": "webpack-dev-server --inline --hot"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack", "typescript", "async"],
+  "author": "Ya'ar Hever",
   "license": "ISC",
   "devDependencies": {
     "@types/systemjs": "^0.20.1",
