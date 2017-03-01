@@ -6,3 +6,17 @@ This repository is a proof of concept for using webpack with typescript with
 ``System.import`` is better than ``require.ensure`` since it provides
 a ``Promise`` and allows to handle exceptions. In order to use it with
 typescript, I included the types for systemjs (``@types/systemjs``).
+
+## How to start?
+
+```sh
+git clone https://github.com/yever/webpack-typescript-async.git
+cd webpack-typescript-async
+npm install
+npm start
+```
+
+You can also build it with
+```sh
+npm run build
+```
