@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/systemjs": "^0.20.1",
     "@types/webpack-env": "^1.13.0",
     "babel-core": "^6.23.1",
     "babel-loader": "^6.3.2",

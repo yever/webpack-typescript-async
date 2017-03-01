@@ -1,16 +1,22 @@
 {
     "compilerOptions": {
         "module": "commonjs",
+        "target": "ES2016",
         "noImplicitAny": true,
         "preserveConstEnums": true,
         "removeComments": true,
-        "target": "ES2016",
         "sourceMap": true,
         "baseUrl": ".",
-        "types": [
+        "lib": [
             "dom",
-            "es6",
-            "webpack-env"
+            "es6"
+        ],
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "types": [
+            "webpack-env",
+            "systemjs"
         ],
         "noLib": false
     },
